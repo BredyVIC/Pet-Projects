@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+header{
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgb(255, 255, 255) 0%, rgb(218, 213, 213) 64%, rgb(158, 154, 154) 100%);
+
+    background-size: 100vw 110vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title{
+    color: #ffffff;
+    text-shadow: 10px 5px 2px #111111;
+    font-size: 4em;
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    
+}
+.menu_list{
+    color: #ffffff;
+    font-size: 1em;
+    font-family: 'Pacifico', cursive;
+    text-decoration: none;
+
+}
+.menu_list:hover{
+    color: #a0a0a0;
+}
+.block_menu{
+    margin: 0.6em;
+    padding-left: 10vh;
+}
+
+.menu_list_img{
+    width: 5vh;
+    height: 5vh;
+}
+.name{
+    color: #ffffff;
+    font-size: 2.5em;
+    font-family: 'Pacifico', cursive;
+    padding-left: 2%;
+}
+.big_slogan{
+    color:#070707;
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5em;
+    text-align: center;
+}
+.little_slogan{
+    text-align: center;
+    color:#000000;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+.dogcat{
+    width: 37vw;
+    height: 67vh;
+
+}
+.LogoUp{
+    width: 20%;
+}
+.wrapper {
+    padding: 6vh;
+    padding-top: 8vh;
+    display: flex;
+  }
+.title_instrument{
+    color: #ffb339;
+    font-size: 1.5em;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px 2px #111111;
+}
+
+.about_us{
+    padding-top: 5vh;
+    color: #000000;
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.containerUp{
+    display: flex;
+    align-items: flex-start;
+    position: sticky;
+    position: -webkit-sticky;
+    justify-content: space-between;
+    background-color: #021008;
+    color:#f6f6f6;
+    height: 7vh;
+    top: 0;
+    
+}
+.small_containerUp{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+::-webkit-scrollbar {
+    width: 1;
+    height: 1;
+  }
+
+
+.body_container{
+    background: #ffffff; 
+    width: 100%;
+    height: 650vh;
+}
+
+.shelter_main_cont{
+    display: flex;
+    align-items: flex-start;
+}
+.Routes_head{
+    padding-top: 2vh;
+    color: #000000;
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.Route_first{
+    background:  #ffffff;
+    height: 100vh;
+}
+
+.map{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.map_text{
+    font-size: 5vh;
+    margin-top: 6vh;
+    margin-left: 35vh;
+    /* width: 100vh; */
+}
+.we_cont{
+    display: flex;
+    align-items: flex-start;
+}
+
+.we_inf{
+    margin-top: 1em;
+    padding-top: 1em;
+    margin-left: 1.25em;
+    padding-left: 0.5em;
+    padding-right: 2.5em;
+    margin-right: 1em;
+    color: #0b0a28;
+    font-size: 2em;
+    border-radius: 1em;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    
+}
+.we_img{
+    width: 65vh;
+    height: 47hv;
+    margin-top: -7em;
+    margin-right:1.5em;
+    border-radius: 2em;
+}
+
+.about_us_cont{
+    background: linear-gradient(45deg, rgb(255, 255, 255) 0%, rgb(218, 213, 213) 64%, rgb(158, 154, 154) 100%);
+    height: 100vh;
+}
+.shelter{
+    padding-top: 1%;
+    padding-bottom: 2%;
+    color: #000000;
+    font-size: 5em;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+.shelter2{
+    /* background: #ffffff; */
+    padding-top: 1%;
+    padding-bottom: 2%;
+    color: #000000;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.Routes{
+    height: 135vh;
+    background: linear-gradient(45deg, rgb(255, 255, 255) 0%, rgb(218, 213, 213) 64%, rgb(158, 154, 154) 100%);
+}
+.shelter_main_img{
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80vh;
+    height: 66vh;
+}
+
+.shelter_main_text{
+    padding-top: 3vh;
+    margin-left: 10%;
+    color: #000000;
+    font-size: 1.4em;
+    text-align:center;
+    font-family: 'Pacifico', cursive;
+}
+
+.line{
+    background: #282828; 
+    width: 100%;
+    height: 6vh;
+}
+footer{
+    background-color: #222222;  
+    height: 20vh;
+}
+
+.creators{
+    padding-top: 2%;
+    color: #ffffff;
+    font-size: 1em;
+    font-family: 'Pacifico', cursive;
+}
+
+.glow-on-hover {
+  background-color: #000000;
+  color: #ffffff; /* Цвет текста на кнопке */
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 30px;
+  padding: 30px 60px; /* Регулируйте отступы, если нужно */
+  text-decoration: none; /* Убирает подчеркивание текста (если кнопка используется как ссылка) */
+  margin-left: 35%;
+  margin-top:  10vh;
+  font-size: 2em;
+}
+
+.glow-on-hover-eng{
+  background-color: #000000;
+  color: #ffffff; /* Цвет текста на кнопке */
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 30px;
+  padding: 30px 60px; /* Регулируйте отступы, если нужно */
+  text-decoration: none; /* Убирает подчеркивание текста (если кнопка используется как ссылка) */
+  margin-left: 32.7%;
+  margin-top:  150px;
+  font-size: 2em;
+}
+
+.glow-on-hover:hover {
+  background-color: #333333; /* Цвет кнопки при наведении */
+}
+
+  .slider_cont{
+    margin:1% 5%;
+    margin-bottom: 0%;
+   
+  }
+
+  .inf_about_trip{
+    padding-top: 3vh;
+    margin-left: 10%;
+    color: #000000;
+    font-size: 1.7em;
+    font-family: 'Pacifico', cursive;
+  }
+
+  .none_a{
+    text-decoration: none; 
+    color: white;
+  }
+  .none_a:hover{
+    text-decoration: none; 
+    color: white;
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Pacifico', cursive;
+}
+
+.line2{
+    background: linear-gradient(180deg, #000000,#000000);
+    width: 100%;
+    height: 8vh;
+}
+.line3{
+    background: linear-gradient(180deg,#000000, rgb(0, 0, 0));
+    width: 100%;
+    height: 8vh;
+}
+.footer {
+  position: relative;
+  width: 100%;
+  background: #7e7e7e;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    color: #000000; /* черный цвет */
+    margin-right: -10%;
+    margin-left: -10%;
+}
+
+/* Стилизация иконок на кнопках */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000000; /* черный цвет */
+}
+
+/* Изменение цвета стрелок "Предыдущий" и "Следующий" для улучшения видимости */
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+    background-color: #000000; /* черный цвет */
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  filter: grayscale(100%);
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
